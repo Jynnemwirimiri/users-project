@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch users -async await </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Modal Overlay -->
+<div id="modalOverlay" class="modal-overlay">
+  <div class="modal">
+    <button id="closeModal" class="modal-close">&times;</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+ <h1 class="title">Users list</h1> 
+  <input 
+  type="text" 
+  id="searchInput" 
+  placeholder="Search user by name, username or email..."
+  class="search-input"
+/>
+ <div id="loader" class="loader">loading users </div> 
+ <div id="usersContainer" class="users-container"></div>
+ 
+
+
+
+ <script src="script.js"></script>
+    
+
+</body>
+</html>
